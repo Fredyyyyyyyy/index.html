@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Relay Control</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      margin-top: 50px;
+    }
+    button {
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+      margin: 20px;
+      border: none;
+      color: white;
+    }
+    .on {
+      background-color: green;
+    }
+    .off {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Relay Control</h1>
+  <button class="on" onclick="location.href='/on'">On</button>
+  <button class="off" onclick="location.href='/off'">Off</button>
+</body>
+</html>
+
